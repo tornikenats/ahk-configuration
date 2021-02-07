@@ -1,0 +1,1 @@
+# ahk-configuration
