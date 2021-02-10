@@ -184,16 +184,16 @@ class SquAeroSnap {
 ; -------------------------------------------------*----*
 
 		fn := this.MoveWindow.Bind(this, "x", 1)
-		hotkey, #Right, % fn
+		hotkey, #+Right, % fn
 		
 		fn := this.MoveWindow.Bind(this, "x", -1)
-		hotkey, #Left, % fn
+		hotkey, #+Left, % fn
 		
 		fn := this.MoveWindow.Bind(this, "y", 1)
-		hotkey, #Down, % fn
+		hotkey, #+Down, % fn
 		
 		fn := this.MoveWindow.Bind(this, "y", -1)
-		hotkey, #Up, % fn
+		hotkey, #+Up, % fn
 		
 		fn := this.SizeWindow.Bind(this, "x", 1, 1)
 		hotkey, #^Right, % fn
